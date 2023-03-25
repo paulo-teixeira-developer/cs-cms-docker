@@ -1,0 +1,27 @@
+/** debug **/
+.red {
+  background: red !important;
+}
+
+.blue {
+  background: blue !important;
+}
+
+/** preenchimento **/
+
+.inherit-fill {
+  height: 100%;
+}
+
+.f-content {
+  width: fit-content !important;
+}
+
+.bb-def {
+  border-bottom: $br-primary;
+}
+
+.w-100 {
+  width: 100%;
+}
+

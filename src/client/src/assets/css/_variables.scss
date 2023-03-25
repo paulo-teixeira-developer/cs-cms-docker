@@ -1,0 +1,34 @@
+$blue-primary: #0540F2;
+$blue-secondary: #4105F2;
+$blue-dark-primary: #081226;
+$blue-dark-secondary: #091B40;
+$ylw-primary: #F2B705;
+$wth-primary: #FFFFFF;
+$blk-primary: #0E0E0E;
+$blk-secondary: #282828;
+$blk-tertiary: #424242;
+$red-primary: #F20540;
+$green-primary: #40F205;
+$grey-primary: #DADCE0;
+$grey-secondary: #FAFAFA;
+$grey-dark-primary: #D5D5D5;
+$shadow-primary: 0px 0px 7px 2px rgba(14, 14, 14, .07);
+$br-primary: $grey-primary solid 1px;
+$br-dark-primary: $grey-dark-primary solid 1px;
+$br-primary-input: #D7D7D7 solid 1px;
+$grey-primary-placeholder: #BFBFBF;
+$bdra-primary: 3px;
+$gap: 20px;
+$column-20: calc(20% - 10px);
+$column-80: calc(80% - 10px);
+
+@mixin v-content-main {
+  width: 100%;
+  min-height: auto;
+  box-sizing: border-box;
+  background: $wth-primary;
+  box-shadow: $shadow-primary;
+  border: $br-primary;
+  border-radius: $bdra-primary;
+  padding: calc(1.5rem * .5) 0;
+}

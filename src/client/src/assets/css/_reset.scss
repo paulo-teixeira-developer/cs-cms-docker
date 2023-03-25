@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  outline: none;
+}
+
+h1,h2,h3,h4,h5,h6,
+span,
+label,
+input,
+button,
+textarea,
+select,
+option,
+p,
+em,
+u,
+a{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: 'Rubik';
+  outline: none;
+  resize: none;
+}
+p {
+  line-height: 1.7
+}
+
+/** especial reset **/
+
+ol:not(.containerTextEditor ol),
+ul:not(.containerTextEditor ul) {
+  list-style: none;
+}
+
+h1:not(.containerTextEditor h1),
+h2:not(.containerTextEditor h2),
+h3:not(.containerTextEditor h3),
+h4:not(.containerTextEditor h4),
+h5:not(.containerTextEditor h5),
+h6:not(.containerTextEditor h6),
+span:not(.containerTextEditor span),
+label:not(.containerTextEditor label),
+input:not(.containerTextEditor input),
+button:not(.containerTextEditor button),
+textarea:not(.containerTextEditor textarea),
+select:not(.containerTextEditor select),
+option:not(.containerTextEditor option),
+p:not(.containerTextEditor p),
+em:not(.containerTextEditor em),
+u:not(.containerTextEditor u),
+a:not(.containerTextEditor a){
+  text-decoration: none;
+  color: $blk-primary;
+  font-size: 1rem;
+}
