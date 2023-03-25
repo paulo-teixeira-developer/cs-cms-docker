@@ -4,6 +4,8 @@
 
 CS CMS (dado nome CS como abreviação do projeto Código Storm) foi desenvolvido para o público que busca uma alternativa aos outros cms. Neste projeto foi implementado com as tecnologias descritas na composição do projeto.
 
+![Texto alternativo da imagem](./readme-data/posts.png)
+
 ### Composição do projeto
 
 - Docker (engine)

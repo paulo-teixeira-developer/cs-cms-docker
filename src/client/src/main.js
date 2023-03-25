@@ -6,8 +6,6 @@ import router from './router'
 /** outros **/
 import './assets/css/_reset.scss'
 import './assets/css/bootstrap-grid.min.css'
-import './assets/font/Montserrat/Montserrat.scss'
-import './assets/font/Rubik/Rubik.scss'
 import './assets/lib/icon-app/style.css'
 import './assets/css/tiptap.scss'
 import './assets/css/main.scss'
